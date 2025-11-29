@@ -1,63 +1,24 @@
-# Employee SQL Project
+# Employee Web Project (HTML5, CSS3, JavaScript)
 
-This repository contains an Employee Management SQL project created to demonstrate hands-on experience in SQL, including database creation, table creation, CRUD operations, grouping, sorting, subqueries, and views.
+This is a client-side **Employee Management** application built with plain HTML5, CSS3 and vanilla JavaScript.
+It demonstrates CRUD operations, searching, sorting, filtering and using `localStorage` to persist data — mirroring the SQL project behavior in a front-end app.
 
----
+## Files
+- `index.html` — single-file app. Open in a browser to run.
+- `employees.json` — optional exported dataset (if you import/export from the app).
 
-## 📂 File Included
+## Features
+- Add / Edit / Delete employees
+- Inline validation
+- Search and filter by name or department
+- Sort by columns
+- Export / Import JSON
+- Reset storage
 
-### **employee_project.sql**
-This SQL script includes:
+## How to run
+1. Download `index.html` and open it in any modern browser (Chrome, Firefox, Edge).
+2. Use the form to add employees. Data is saved in browser `localStorage`.
+3. Export JSON to share or import on another device.
 
-- Creation of `employee_db` database  
-- Employee table with fields  
-- Insert sample employee records  
-- Update operations  
-- Delete operations  
-- Filtering (WHERE)  
-- Sorting (ORDER BY)  
-- Aggregations (AVG, GROUP BY)  
-- Subqueries  
-- Creating views  
-
----
-
-## 🛠 SQL Concepts Demonstrated
-
-- DDL (CREATE TABLE, CREATE DATABASE)
-- DML (INSERT, UPDATE, DELETE)
-- Filtering using WHERE
-- ORDER BY
-- GROUP BY and aggregate functions
-- Subqueries
-- Views
-- Basic query optimization
-
----
-
-## ▶️ How to Run
-Open MySQL Workbench (or any SQL tool) and run:
-
-SOURCE employee_project.sql;
-
-This will execute the full script automatically.
-
----
-
-## 📘 Purpose of This Project
-
-This project is created as part of my application process to demonstrate clear understanding of SQL concepts and real-world database operations.
-
----
-
-## 👤 Author
-
-**Krithish Kumar**
-
----
-
-
-
-
-Open MySQL Workbench (or any SQL tool) and run:
-
+## Purpose
+This front-end project complements my SQL project by demonstrating how data can be handled on the client side and presented to users, showing end-to-end understanding of data flow and CRUD operations.
